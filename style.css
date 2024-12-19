@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+:root {
+  --blue-color: #0866ff;
+  --gray-color: #dadde1;
+  --green-color: #00a400;
+  --bg-color: #f0f2f5;
+}
+
+header {
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray-color);
+  box-shadow: 0 4px 2px -2px #8a8c9033;
+}
+nav {
+  display: flex;
+}
+input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-color);
+}
+nav #submit {
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--blue-color);
+  color: #fff;
+}
+nav a {
+  padding: 10px;
+  color: var(--blue-color);
+}
+a {
+  color: var(--blue-color);
+}
+.register {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 0px 0px 0px;
+  background-color: var(--bg-color);
+}
+.register .register-container {
+  width: 500px;
+  margin: 0px auto;
+  padding: 10px 0px;
+  border: 1px solid var(--gray-color);
+  box-shadow: 5px 5px 2px -2px #8a8c9033;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+  padding-left: 18px !important;
+}
+.caption {
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 1px solid var(--gray-color);
+}
+#register-form {
+  width: 100%;
+  /* padding: 10px;
+  padding-left: 18px !important; */
+}
+.grid-2 {
+  width: 230px;
+}
+.description-label {
+  color: gray;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+#register-form select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-color);
+}
+.grid-3 {
+  width: 150px;
+}
+.radio-box {
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--gray-color);
+}
+.grid-1 {
+  margin-top: 10px;
+  width: 460px;
+}
+.info-container {
+  padding-top: 20px;
+  color: gray;
+  font-size: 14px;
+}
+.info {
+  padding-top: 10px;
+}
+.button-container {
+  padding: 20px 0px;
+}
+#sign-up {
+  border: none;
+  border-radius: 3px;
+  padding: 10px 50px;
+  background-color: var(--green-color);
+  color: #fff;
+  display: block;
+  margin: 0px auto;
+}
+.login-link {
+  text-align: center;
+  padding-bottom: 20px;
+}
